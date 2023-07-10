@@ -1,73 +1,40 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+1. creamos un repositorio en Docker Hub
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+   ![image](https://github.com/Luis5600/Taller7/assets/85821391/af59a591-4b7d-4a22-bb23-f7ff7783ed2c)
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+2. Nos diriguimos dentro de Docker hub en Account Settings y a Security para crear un access token y copias la acceso 
 
-## Description
+   ![image](https://github.com/Luis5600/Taller7/assets/85821391/bebbedd5-c346-4f0c-907b-5fd49c1725e1)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+3. Ahora nos dirigimos dentro de nuestro repositorio a settings, secrets and variables y actions
 
-## Installation
+   ![image](https://github.com/Luis5600/Taller7/assets/85821391/76646e0d-5ca5-426c-8009-244c029371b5)
 
-```bash
-$ npm install
-```
+   ![image](https://github.com/Luis5600/Taller7/assets/85821391/37ab590d-6039-477c-83cb-68de5daee52a)
 
-## Running the app
 
-```bash
-# development
-$ npm run start
+5. Dentro de Action creamos 2 Repository secrets, uno con la contraseña de acceso de Docker que copias enante y otro con el nombre de usuario de Docker
 
-# watch mode
-$ npm run start:dev
+   ![image](https://github.com/Luis5600/Taller7/assets/85821391/dcdfae1b-5cdf-4072-907d-a6534a337b75)
 
-# production mode
-$ npm run start:prod
-```
+6. Nos diriguimos ahora a Actions y configuramos el docker imagen
 
-## Test
+   ![image](https://github.com/Luis5600/Taller7/assets/85821391/41beab07-50eb-466f-a07f-0f213f0cbab8)
 
-```bash
-# unit tests
-$ npm run test
+   ![image](https://github.com/Luis5600/Taller7/assets/85821391/eefaf785-9afb-4f34-94ca-5288b4ae1c17)
 
-# e2e tests
-$ npm run test:e2e
+7. y procedemos hacer un cambio para probar si hace el build
 
-# test coverage
-$ npm run test:cov
-```
+   ![image](https://github.com/Luis5600/Taller7/assets/85821391/4e125997-372a-4802-9406-61c1257b867e)
 
-## Support
+8. revisamos en el docker hub y seria todo
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+   ![image](https://github.com/Luis5600/Taller7/assets/85821391/352d2956-14ab-4b84-8e7c-78214f4f391a)
 
-## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## License
 
-Nest is [MIT licensed](LICENSE).
+
+
+   
+
